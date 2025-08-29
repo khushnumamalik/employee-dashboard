@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import { Routes, Route } from 'react-router-dom'
 import './App.css'
-
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js"; 
 import Sidebar from './Sidebar/Sidebar';
@@ -35,11 +34,8 @@ import Messages from './pages/Messages';
 import Settings from './pages/Settings';
 import Profile from './pages/Profile';
 import Help from './pages/Help';
-
 // Dashboard Components
 const AdminDashboard = () => <Dashboard />;
-
-
 function App() {
   return (
     <>
