@@ -92,8 +92,6 @@ function App() {
         <Route path="/profile" element={<Profile />} />
         <Route path="/help" element={<Help />} />
       </Routes>
-
-      
     </>
   )
 }
